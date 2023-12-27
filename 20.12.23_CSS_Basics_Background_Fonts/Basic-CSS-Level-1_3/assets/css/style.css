@@ -1,0 +1,20 @@
+nav {
+  background-color: grey;
+  color: rgb(245, 4, 4);
+}
+main {
+  background-color: lightgray;
+}
+h2 {
+  color: orange;
+}
+span {
+  color: red;
+}
+section:nth-of-type(1) img {
+  width: 400px;
+  height: 400px;
+}
+a {
+  display: block;
+}

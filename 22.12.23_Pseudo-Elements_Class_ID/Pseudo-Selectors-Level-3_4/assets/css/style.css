@@ -1,0 +1,22 @@
+img {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+header img:hover {
+  border: 2px double black;
+}
+
+main img:hover {
+  filter: grayscale(100%);
+}
+
+footer img {
+  border: 2px solid black;
+}
+
+footer img:hover {
+  border: 2px solid black;
+  border-radius: 100%;
+}

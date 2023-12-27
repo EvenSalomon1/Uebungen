@@ -1,0 +1,30 @@
+h1 {
+  font: size 48px;
+  background-color: grey;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: -10px -10px 5px green;
+  text-align: center;
+}
+p:first-of-type {
+  text-indent: 20px;
+  word-spacing: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+p:nth-of-type(2) {
+  word-spacing: 10px;
+  text-indent: 20px;
+}
+h2 {
+  text-shadow: 5px 10px 5px red;
+}
+p:nth-of-type(3),
+p:nth-of-type(4) {
+  line-height: 30px;
+}
+p:nth-of-type(3) {
+  background-color: grey;
+}
+p:nth-of-type(4) {
+  background-color: pink;
+}

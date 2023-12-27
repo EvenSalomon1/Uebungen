@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Fredericka;
+  src: url(../fonts/FrederickatheGreat-Regular.ttf);
+}
+@font-face {
+  font-family: Open;
+  src: url(../fonts/OpenSans-VariableFont_wdth\wght.ttf);
+}
+
+header {
+  background-image: url(../image/leaves.jpg);
+  background-size: contain;
+}
+h1 {
+  color: white;
+  margin-left: 50px;
+  padding: 20px;
+}
+header div {
+  width: 300px;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  margin-left: 650px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin-bottom: 10px;
+}
+
+main {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+main div {
+  border: 2px solid black;
+  width: 150px;
+  margin: auto;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+  padding: 20px;
+  margin-top: 10px;
+}
+footer a {
+  border: 1px solid white;
+  padding: 5px;
+}
+
+h1,
+h2 {
+  font-family: Fredericka;
+}
+
+p {
+  font-family: Open;
+}
