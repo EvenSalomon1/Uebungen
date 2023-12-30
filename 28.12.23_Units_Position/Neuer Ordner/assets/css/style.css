@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(../img/bike.jpg);
+  background-size: cover;
+  min-height: 50vh;
+}
+
+header section {
+  padding-top: 150px;
+  text-align: center;
+  width: 30%;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+header section p {
+  font-weight: bold;
+  margin-bottom: 195px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 120px;
+  position: relative;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:first-of-type {
+  font-size: 30px;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
+
+a:nth-of-type(2) {
+  margin-right: 5%;
+}
+
+a:nth-of-type(3) {
+  margin-right: 5%;
+}
+
+a:nth-of-type(4) {
+  margin-right: 20%;
+}
+
+a:nth-of-type(2):hover,
+a:nth-of-type(3):hover,
+a:nth-of-type(4):hover {
+  text-decoration: underline;
+}
+
+/* main */
+
+main {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+img {
+  width: 400px;
+  height: 250px;
+  padding: 10px;
+}
+
+/* footer */
+
+footer h3 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+footer p {
+  margin-left: 110px;
+  margin-bottom: 15px;
+  color: #333333;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: #008000;
+}
