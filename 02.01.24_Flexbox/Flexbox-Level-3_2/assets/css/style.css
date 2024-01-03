@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+header p {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 24px;
+}
+
+header p::before {
+  content: url(../img/logo.png.png);
+  padding: 0 5px;
+}
+
+.left {
+  display: flex;
+  gap: 1vw;
+  margin: auto;
+  margin-left: -10px;
+  margin-bottom: 7px;
+}
+
+.right {
+  padding: 10px 30px 10px 0;
+}
+
+/* main */
+
+main {
+  background-color: #d9e8e5;
+  height: 100vh;
+}
+
+h2 {
+  padding: 80px 0 0 15%;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+main div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5vw;
+}
+/* 
+main section {
+  position: relative;
+}
+
+main p:first-of-type {
+  position: absolute;
+  text-align: right;
+} */

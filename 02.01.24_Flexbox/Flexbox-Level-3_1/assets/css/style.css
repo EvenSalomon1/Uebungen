@@ -1,0 +1,96 @@
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100vw;
+}
+
+nav a {
+  color: #4c4c4c;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+nav p {
+  color: #666;
+  font-size: 24px;
+}
+
+div {
+  display: flex;
+  gap: 1vw;
+}
+
+nav a:hover {
+  color: rgb(82, 116, 184);
+}
+
+nav p:hover {
+  color: rgb(82, 116, 184);
+}
+/* main */
+
+main {
+  background: url(../img/bild.jpg);
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+h1 {
+  font-size: clamp(40px, 5vw, 60px);
+  margin-bottom: 25px;
+  font-weight: lighter;
+}
+
+main p {
+  margin-bottom: 35px;
+}
+
+main a:first-of-type {
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+main a:nth-of-type(2) {
+  border: 1px solid #745cf9;
+  background-color: #745cf9;
+  padding: 10px 25px;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+main a:first-of-type:hover {
+  background-color: white;
+  color: black;
+}
+
+main a:nth-of-type(2):hover {
+  background-color: #573bf8;
+}
