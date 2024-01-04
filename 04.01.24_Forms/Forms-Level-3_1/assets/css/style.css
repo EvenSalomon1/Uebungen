@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  width: 400px;
+  padding: 20px;
+  margin: auto;
+}
+
+fieldset {
+  border-radius: 10px;
+  border: 1px rgb(222, 222, 226) solid;
+}
+
+.div {
+  background-color: rgb(123, 180, 213);
+  color: white;
+  width: 370px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.first,
+.second,
+.third {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 350px;
+  padding: 20px;
+  background-color: rgb(245, 242, 242);
+  border-radius: 10px;
+  color: grey;
+}
+
+.third {
+  margin-bottom: 20px;
+}
+h3 {
+  padding: 10px;
+  color: rgb(123, 180, 213);
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+input {
+  border: 0.5px rgb(227, 224, 224) solid;
+}
+
+input:first-of-type,
+input:nth-of-type(3),
+input:nth-of-type(5) {
+  margin-bottom: 10px;
+}
+
+h3:before {
+  content: "1";
+  margin-left: -25px;
+  margin-right: 5px;
+  background-color: rgb(123, 180, 213);
+  color: white;
+  border-radius: 100%;
+  padding: 5px 10px 5px 10px;
+}
+
+h3:nth-of-type(2)::before {
+  content: "2";
+}
+
+h3:nth-of-type(3)::before {
+  content: "3";
+}

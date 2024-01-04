@@ -1,0 +1,35 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  width: 300px;
+  background-color: rgb(236, 232, 232);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: auto;
+}
+
+input,
+textarea {
+  margin: 5px;
+  padding: 3px;
+}
+
+section,
+input[type="submit"] {
+  background-color: #43d1af;
+  color: white;
+}
+
+input[type="submit"] {
+  border: 1px solid #43d1af;
+}
+
+input[type="submit"]:hover {
+  background-color: #2ebc99;
+}
