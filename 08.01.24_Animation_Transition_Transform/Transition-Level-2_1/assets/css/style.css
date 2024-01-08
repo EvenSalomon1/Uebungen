@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+section {
+  background: url(../img/background-4.png);
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: -100px;
+  transition: bottom 2s ease;
+}
+
+section:hover div {
+  bottom: 0px;
+}

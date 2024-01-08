@@ -1,0 +1,29 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(39, 35, 35);
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border: white solid 1px;
+}
+
+img:hover {
+  animation: shadow 3s ease-in infinite;
+}
+
+@keyframes shadow {
+  0%,
+  100% {
+    box-shadow: 0 0 10px 5px white;
+  }
+
+  50% {
+    box-shadow: 10px 10px 20px green, -10px -10px 20px blue;
+  }
+}

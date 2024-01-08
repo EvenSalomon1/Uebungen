@@ -1,0 +1,38 @@
+main {
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  transition: 1s;
+}
+
+div:first-of-type:hover {
+  transform: translate(50px, 50px);
+}
+
+div:nth-of-type(2):hover {
+  transform: translateX(-50px);
+}
+
+div:nth-of-type(3):hover {
+  transform: translateY(50px);
+}
+
+div:nth-of-type(4):hover {
+  transform: rotate(50deg);
+}
+
+div:nth-of-type(5):hover {
+  transform: scale(1.5);
+}
+
+div:nth-of-type(6):hover {
+  transform: skew(10deg, 10deg);
+}
