@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vw;
+}
+section {
+  background-color: rgb(234, 234, 157);
+  padding: 3vw;
+  border-radius: 10px;
+  margin: 2vw;
+}
+
+li {
+  margin-bottom: 2vw;
+}
+
+span {
+  font-weight: bold;
+}

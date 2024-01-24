@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Git Cheatsheet</h1>
+    </header>
+    <main>
+      <section class="basic">
+        <h2>Basic</h2>
+        <p><span>git add . </span>-> fügt Änderung zur Staging-Area hinzu</p>
+        <p>
+          <span>git commit -m "first commit"</span> -> erstellt eine neue commit
+          mit einer Nachricht "first commit
+        </p>
+        <p>
+          <span>git push</span> -> lädt die Dateien der Staging-Area in das
+          Github Repo
+        </p>
+      </section>
+      <section class="branches">
+        <h2>Branches</h2>
+        <p><span>git branch </span>-> zeigt alle vorhandenen Branches an</p>
+        <p>
+          <span> git branch BurgerMenu </span>-> erstellt eine neue Branch, in
+          dem Fall mit dem Namen BurgerMenu
+        </p>
+        <p>
+          <span> git checkout BurgerMenu </span>-> so wechselt man zur Branch
+          „BurgerMenu
+        </p>
+        <p>
+          <span>git checkout -b BurgerMenu </span>-> legt eine neue Branch
+          „BurgerMenu“ an und wechselt direkt dahin
+        </p>
+        <p>
+          <span>git branch -d BurgerMenu </span>-> Löscht die Branch BurgerMenu
+        </p>
+      </section>
+      <section class="merge">
+        <h2>Merge</h2>
+        <ol>
+          <li><span>git checkout main </span>-> wechselt zu main branch</li>
+          <li>
+            <span>git merge BurgerMenu </span>-> versucht die main branch mit
+            BurgerMenu zusammenzuführen
+          </li>
+          <li><span>git add, git commit und git push</span></li>
+          <li>
+            <span>git branch -d BurgerMenu </span>-> Löscht die side branch
+            „BurgerMenu“
+          </li>
+        </ol>
+      </section>
+      <section class="commit-set-back">
+        <h2>Commits zurücksetzen</h2>
+        <p>
+          <span>git log --oneline</span> -> Zeigt alle commits mit den IDs an.
+          Dann die ID auswählen bzw. kopieren zu der man zurückwill
+        </p>
+        <p>
+          <span>git checkout B7398dj8 .</span> -> setzt zurück auf den Stand von
+          dem commit mit der ID B7398dj8.
+        </p>
+        <p><span>git add, git commit, git push</span></p>
+      </section>
+    </main>
+  </body>
+</html>
