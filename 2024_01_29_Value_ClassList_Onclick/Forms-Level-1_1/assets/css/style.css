@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  margin: auto;
+}
+
+input,
+select {
+  width: 400px;
+  margin-bottom: 1vh;
+}
+
+div input {
+  width: 198px;
+}
+
+#submit {
+  margin-top: 1vh;
+  background-color: rgb(95, 95, 188);
+  color: white;
+}
